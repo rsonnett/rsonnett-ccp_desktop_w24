@@ -1,0 +1,348 @@
+.skip-to-main-content-link{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+}
+
+.skip-to-main-content-link:focus {
+    transform: translateY(0%);
+}
+
+
+body{
+    margin: 1%;
+    padding: 5%;
+    font-size: 200%;
+} 
+h1{
+    font-size: 42px;
+    font-family: "Georgia", "Arial";
+    color: #020244;
+    padding: 15px;
+    text-align: center;
+    border: 10px solid #020244;
+    border-radius: 15px;
+    display: inline-block;
+    border-bottom-width: 10px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 10px;
+}
+#main > div > p:first-child {
+    text-align: center;
+    font-family: "Georgia", "Arial";
+    color: #020244;
+    font-size: 25px;
+}
+
+.image-grid img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    width: 75%;
+    height: auto;
+    border: 4px solid #020244; 
+    border-radius: 8px; 
+    margin: 5px; 
+    justify-content: center;
+
+}
+
+h4{
+    font-size: 42px;
+    font-family: "Georgia", "Arial";
+    color: #020244;
+    padding: 15px;
+    text-align: center;
+    border: 10px solid #020244;
+    border-radius: 15px;
+    display: inline-block;
+    border-bottom-width: 10px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 10px;
+}
+div{
+    font-family: "Georgia", "Arial";
+    font-weight: 200%;
+    text-align: center;
+}
+div.pets p, div.travel p, div.recipes p, div.ringo p, div.denver p, div.georgia p, div.sunny p, div.cody p, div.bolognese p, div.salmon p, div.rolls p, div.costa_rica p, div.rome p, div.tokyo p{
+    font-family: "Georgia", "Arial";
+    font-size: 25px;
+    color:#020244;
+}
+.pg1, .pg2, .pg3, .pg4, .pg5{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-family: "Georgia", "Arial";
+    font-size: 25px;
+    color:#020244;
+    border: 5px solid #020244;
+
+}
+
+h2{
+    font-size: 35px;
+    font-family: "Georgia", "Arial";
+    color: #020244;
+    padding: 15px;
+    text-align: center;
+    border: 10px solid #020244;
+    border-radius: 15px;
+    display: inline-block;
+    border-bottom-width: 10px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 10px;
+}
+.photos1, .photos2, .photos3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-family: "Georgia", "Arial";
+    font-size: 25px;
+    color:#020244;
+    border: 5px solid #020244;
+}
+
+.recipe1, .recipe3 { 
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: "Georgia", "Arial";
+    font-size: 25px;
+    color:#020244;
+    border: 5px solid #020244;
+}
+
+.recipe2 { 
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: "Georgia", "Arial";
+    font-size: 25px;
+    color:#020244;
+    border: 5px solid #020244;
+}
+.travel_gallery1, .travel_gallery2, .travel_gallery3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-family: "Georgia", "Arial";
+    font-size: 25px;
+    color:#020244;
+    border: 5px solid #020244;
+}
+
+h3{
+    font-size: 25px;
+    font-family: "Georgia", "Arial";
+    color: #0d87c0;
+    padding: 15px;
+    text-align: center;
+}
+
+
+#recipe_title {
+    font-size: 50px;
+    background-color: #FFFF00;
+}
+
+#pets_title {
+    font-size: 50px;
+    background-color: #FFFF00;
+}
+
+#travel_title {
+    font-size: 50px;
+    background-color: #FFFF00;
+}
+
+#home_title {
+    font-size: 50px;
+    background-color: #FFFF00;
+}
+@media (prefers-reduced-motion:reduce) {
+    .animation1, .animation2, .animation3 {
+      animation: none;
+      
+    }
+  }
+
+
+@media screen and (min-width:800px) and (max-width: 1000px){
+    h1:hover, h2:hover, h3:hover {
+        font-size: 130%;
+    }
+    img{
+        justify-content: center;
+        grid-column: 1 / span 2;
+        align-items: center;
+        justify-content: center;
+        transition: width 2s ease-in-out;
+    }
+    
+    a:hover{
+        font-size: 120%;
+        color: #FF0000;
+    }
+
+    .image-grid, .photos1, .photos2, .photos3, .travel_gallery1, .travel_gallery2, .travel_gallery3, .pg1, .pg2, .pg3, .pg4, .pg5{
+        grid-template-columns: repeat(2, 1fr);
+    }   
+
+    body{
+        background-color: #E1F8FE;
+        margin: 1%;
+        padding: 5%;
+        font-size: 200%;
+    }
+
+    h1{
+        font-size: 100%;
+        font-family: "Georgia", "Arial";
+        color: #020244;;
+        padding: 15px;
+        text-align: center;
+        border: 10px solid #020244;
+        border-radius: 15px;
+        display: inline-block;
+        border-bottom-width: 10px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-top-width: 10px;
+    }
+
+    h2{
+        font-size: 100%;
+        font-family: "Georgia", "Arial";
+        color: #020244;
+        padding: 15px;
+        text-align: center;
+        border: 10px solid #020244;
+        border-radius: 15px;
+        display: inline-block;
+        border-bottom-width: 10px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-top-width: 10px;
+    }
+
+    
+    h3{
+        font-size: 25px;
+        font-family: "Georgia", "Arial";
+        color: #020244;
+        padding: 15px;
+        text-align: center;
+    }
+
+    p:hover{
+        background-color: #FFFF00;
+    }
+}
+
+@media screen and (min-width:1000px){
+    body{
+        background-color: #b8f0bf;
+    }
+    .pg1, .pg2, .pg3, .pg4, .pg5{
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
+        height: auto;
+        border: 4px solid #020244; 
+        border-radius: 8px; 
+        margin: 5px; 
+        justify-content: center;
+    }
+    .odd{
+        background-color:#aeecf0;
+        border: 4px solid #020244;
+    }
+    .pg1 img, .pg2 img, .pg3 img, .pg4 img, .pg5 img{
+        width: 100%;
+    }
+
+
+    h3{
+        color: #020244;
+    }
+
+    p:hover{
+        background-color: #f6ee57;
+    }
+
+    img:hover{
+        transform: scale(1.15);
+    }
+    .ingredients{
+        border: 5px solid #020244;
+    }
+    a:hover{
+        font-size: 120%;
+        color: #FF0000;
+    }
+    .travel_gallery1 img, .travel_gallery2 img, .travel_gallery3 img{
+        width: 100%;
+    }
+    .travel_gallery1, .travel_gallery2, .travel_gallery3{
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-content: center;
+        height: auto;
+        border: 4px solid #020244; 
+        border-radius: 8px; 
+        margin: 5px; 
+        justify-content: center;
+    } 
+    .image-grid1{
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-content: center;
+        height: auto;
+        border: 4px solid #020244; 
+        border-radius: 8px; 
+    }
+    .image-grid{
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        height: auto;
+        border: 4px solid #020244; 
+        border-radius: 8px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
